@@ -1,0 +1,40 @@
+2015-09-15 17:07:46,849 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-09-15 17:07:46,936 WARN [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-reducetask.properties,hadoop-metrics2.properties
+2015-09-15 17:07:52,009 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-09-15 17:07:52,009 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system started
+2015-09-15 17:07:52,023 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-09-15 17:07:52,023 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1442300831084_0001, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@6498985e)
+2015-09-15 17:07:52,092 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-09-15 17:07:52,373 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_0/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_1/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_2/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_3/usercache/kunaltaneja/appcache/application_1442300831084_0001
+2015-09-15 17:07:52,784 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-09-15 17:07:52,800 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2015-09-15 17:07:52,806 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-15 17:07:52,806 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : null
+2015-09-15 17:07:52,811 INFO [main] org.apache.hadoop.mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6337bb9c
+2015-09-15 17:07:57,847 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: MergerManager: memoryLimit=535088320, maxSingleShuffleLimit=133772080, mergeThreshold=353158304, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2015-09-15 17:07:57,853 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1442300831084_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2015-09-15 17:07:57,861 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: attempt_1442300831084_0001_r_000000_0: Got 1 new map-outputs
+2015-09-15 17:07:57,861 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: Assigning kunals-air-2:50022 with 1 to fetcher#5
+2015-09-15 17:07:57,861 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: assigned 1 of 1 to kunals-air-2:50022 to fetcher#5
+2015-09-15 17:08:03,067 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: for url=50022/mapOutput?job=job_1442300831084_0001&reduce=0&map=attempt_1442300831084_0001_m_000000_0 sent hash and received reply
+2015-09-15 17:08:03,074 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.Fetcher: fetcher#5 about to shuffle output of map attempt_1442300831084_0001_m_000000_0 decomp: 100 len: 104 to MEMORY
+2015-09-15 17:08:03,076 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput: Read 100 bytes from map-output for attempt_1442300831084_0001_m_000000_0
+2015-09-15 17:08:03,078 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 100, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->100
+2015-09-15 17:08:03,079 INFO [EventFetcher for fetching Map Completion Events] org.apache.hadoop.mapreduce.task.reduce.EventFetcher: EventFetcher is interrupted.. Returning
+2015-09-15 17:08:03,079 INFO [fetcher#5] org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl: kunals-air-2:50022 freed by fetcher#5 in 5218ms
+2015-09-15 17:08:03,083 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2015-09-15 17:08:03,089 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2015-09-15 17:08:03,089 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 94 bytes
+2015-09-15 17:08:03,099 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merged 1 segments, 100 bytes to disk to satisfy reduce memory limit
+2015-09-15 17:08:03,099 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 1 files, 104 bytes from disk
+2015-09-15 17:08:03,100 INFO [main] org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+2015-09-15 17:08:03,100 INFO [main] org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2015-09-15 17:08:03,102 INFO [main] org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 94 bytes
+2015-09-15 17:08:03,115 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2015-09-15 17:08:03,123 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1442300831084_0001_r_000000_0 is done. And is in the process of committing
+2015-09-15 17:08:03,129 INFO [main] org.apache.hadoop.mapred.Task: Task attempt_1442300831084_0001_r_000000_0 is allowed to commit now
+2015-09-15 17:08:03,131 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_1442300831084_0001_r_000000_0' to file:/tmp/hdapp1/output/_temporary/1/task_1442300831084_0001_r_000000
+2015-09-15 17:08:03,137 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1442300831084_0001_r_000000_0' done.
+2015-09-15 17:08:03,239 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping ReduceTask metrics system...
+2015-09-15 17:08:03,239 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system stopped.
+2015-09-15 17:08:03,239 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: ReduceTask metrics system shutdown complete.

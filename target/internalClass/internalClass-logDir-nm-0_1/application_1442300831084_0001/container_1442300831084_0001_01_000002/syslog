@@ -1,0 +1,29 @@
+2015-09-15 17:07:35,119 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-09-15 17:07:35,213 WARN [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-maptask.properties,hadoop-metrics2.properties
+2015-09-15 17:07:37,537 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-09-15 17:07:37,537 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system started
+2015-09-15 17:07:37,553 INFO [main] org.apache.hadoop.mapred.YarnChild: Executing with tokens:
+2015-09-15 17:07:37,553 INFO [main] org.apache.hadoop.mapred.YarnChild: Kind: mapreduce.job, Service: job_1442300831084_0001, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@2a1f2b5c)
+2015-09-15 17:07:37,629 INFO [main] org.apache.hadoop.mapred.YarnChild: Sleeping for 0ms before retrying again. Got null now.
+2015-09-15 17:07:37,911 INFO [main] org.apache.hadoop.mapred.YarnChild: mapreduce.cluster.local.dir for child: /Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_0/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_1/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_2/usercache/kunaltaneja/appcache/application_1442300831084_0001,/Users/kunaltaneja/hdapp/hdapp1/target/internalClass/internalClass-localDir-nm-0_3/usercache/kunaltaneja/appcache/application_1442300831084_0001
+2015-09-15 17:07:38,365 INFO [main] org.apache.hadoop.conf.Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+2015-09-15 17:07:38,379 INFO [main] org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2015-09-15 17:07:38,385 INFO [main] org.apache.hadoop.yarn.util.ProcfsBasedProcessTree: ProcfsBasedProcessTree currently is supported only on Linux.
+2015-09-15 17:07:38,385 INFO [main] org.apache.hadoop.mapred.Task:  Using ResourceCalculatorProcessTree : null
+2015-09-15 17:07:38,400 INFO [main] org.apache.hadoop.mapred.MapTask: Processing split: file:/tmp/hdapp1/input/Data.txt:0+45
+2015-09-15 17:07:38,551 INFO [main] org.apache.hadoop.mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+2015-09-15 17:07:38,552 INFO [main] org.apache.hadoop.mapred.MapTask: mapreduce.task.io.sort.mb: 100
+2015-09-15 17:07:38,552 INFO [main] org.apache.hadoop.mapred.MapTask: soft limit at 83886080
+2015-09-15 17:07:38,552 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufvoid = 104857600
+2015-09-15 17:07:38,552 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396; length = 6553600
+2015-09-15 17:07:38,561 INFO [main] org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2015-09-15 17:07:38,583 INFO [main] org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2015-09-15 17:07:38,584 INFO [main] org.apache.hadoop.mapred.MapTask: Spilling map output
+2015-09-15 17:07:38,584 INFO [main] org.apache.hadoop.mapred.MapTask: bufstart = 0; bufend = 80; bufvoid = 104857600
+2015-09-15 17:07:38,584 INFO [main] org.apache.hadoop.mapred.MapTask: kvstart = 26214396(104857584); kvend = 26214364(104857456); length = 33/6553600
+2015-09-15 17:07:38,590 INFO [main] org.apache.hadoop.mapred.MapTask: Finished spill 0
+2015-09-15 17:07:38,596 INFO [main] org.apache.hadoop.mapred.Task: Task:attempt_1442300831084_0001_m_000000_0 is done. And is in the process of committing
+2015-09-15 17:07:38,615 INFO [main] org.apache.hadoop.mapred.Task: Task 'attempt_1442300831084_0001_m_000000_0' done.
+2015-09-15 17:07:38,718 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Stopping MapTask metrics system...
+2015-09-15 17:07:38,719 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system stopped.
+2015-09-15 17:07:38,719 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MapTask metrics system shutdown complete.
